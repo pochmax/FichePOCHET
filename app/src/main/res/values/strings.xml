@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FichePOCHET</string>
+    <string name="identity">FICHE CONTACT</string>
+    <string name="name">Nom</string>
+    <string name="first_name">Prénom</string>
+    <string name="phone">Téléphone</string>
+    <string name="edit_identity">MODIFIER IDENTITE</string>
+    <string name="identity_edit">SAISIE IDENTITE</string>
+    <string name="address">Address</string>
+    <string name="address_number">Numéro</string>
+    <string name="street">Rue</string>
+    <string name="postal_code">Code Postal</string>
+    <string name="city">Ville</string>
+    <string name="edit_address">MODIFIER ADRESSE</string>
+    <string name="adress_edit">SAISIE ADRESSE</string>
+    <string name="validate">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="Inconnu">Inconnu</string>
+</resources>

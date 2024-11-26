@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="100dp"
+    android:paddingLeft="16dp">
+
+    <TableLayout
+        android:id="@+id/identityTableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="40dp">
+
+        <TableRow>
+            <TextView
+                android:text="@string/name" />
+            <TextView
+                android:id="@+id/nameTextView"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:hint="@string/Inconnu"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/first_name" />
+            <TextView
+                android:id="@+id/firstNameTextView"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:hint="@string/Inconnu"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/phone" />
+            <TextView
+                android:id="@+id/phoneTextView"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:hint="@string/Inconnu"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/editIdentityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_identity"
+        app:layout_constraintTop_toBottomOf="@id/identityTableLayout"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TableLayout
+        android:id="@+id/addressTableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/editIdentityButton">
+
+        <TableRow>
+            <TextView
+                android:text="@string/address_number" />
+            <TextView
+                android:id="@+id/addressNumberTextView"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:hint="@string/Inconnu"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/street" />
+            <TextView
+                android:id="@+id/streetTextView"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:hint="@string/Inconnu"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/postal_code" />
+            <TextView
+                android:id="@+id/postalCodeTextView"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:hint="@string/Inconnu"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/city" />
+            <TextView
+                android:id="@+id/cityTextView"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:hint="@string/Inconnu"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/editAddressButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_address"
+        app:layout_constraintTop_toBottomOf="@id/addressTableLayout"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
